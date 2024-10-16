@@ -1,0 +1,110 @@
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 1% 1%px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+  }
+
+  .topnav-home{
+        position: fixed;
+        left: 44%;
+    }
+
+    .topnav-videos {
+        position: fixed;
+        left: 49%;
+        text-align: center;
+    }
+
+    .topnav-about{
+    position: fixed;
+        left: 55%;
+        text-align: center;
+
+    }
+
+    .topnav-contact{
+    position: fixed;
+        left: 60%;
+        text-align: center;
+    }
+    
+    .topnav-login{
+      position: fixed;
+      left: 95%;
+      text-align: center;
+    }
+    
+    body {
+        background-image: url('../IMG/77.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+
+  .pic{
+    display: flex;
+    align-items: center;
+  }
+
+  .pic img{
+    max-width: 200px;
+    margin-right: 20px;
+  }
+  .pic .text{
+    font-size: 20px;
+
+  }
+
+    .container {
+	margin: 100px 0 0 200px;
+	height: 450px;
+	width: 70%;
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+    }
+
+   .container img {
+	width: 10%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+	border: 3px solid;
+	border-color: skyblue;
+	transition: all ease-in-out 0.5s;
+    }
+
+   .container img:hover {
+	width: 25%;
+    }
+
+   .tab {
+	background-color: lightblue;
+   }
+
+   h1{
+    color: white;
+   }
+
+ 
+
+  
+
+   .formie{
+    border: 1px;
+    background-color: aqua;
+    padding-top: 75px;
+    padding-left: 125px;
+    padding-bottom: 100px;
+    padding-right: 125px;
+    font-size: 12px;
+    height: 280px;
+    width: 250px;
+   }
